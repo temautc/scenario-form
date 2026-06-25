@@ -40,6 +40,9 @@ This roadmap shows the current direction of the project. Priorities may change b
 - [ ] Improve presets for popular form platforms
 - [ ] Improve support for multi-step forms
 - [ ] Improve support for complex custom controls
+- [ ] Add support for multiple interface languages
+- [ ] Add appearance settings for system, light, and dark themes
+
 
 ## Under Consideration
 
