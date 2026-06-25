@@ -1,66 +1,66 @@
-name: Feature request
-description: Suggest an improvement for Scenario Form
+name: "Feature request"
+description: "Suggest an improvement for Scenario Form"
 title: "[Feature]: "
-labels: ["type: feature", "status: needs review"]
+labels:
+  - "type: feature"
+  - "status: needs review"
+
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement.
 
-* type: markdown
-  attributes:
-  value: |
-  Thanks for suggesting an improvement.
+        Please do not include passwords, personal data, private form values, cookies, tokens, screenshots with sensitive information, or private page content.
 
-  ```
-  Please do not include passwords, personal data, private form values, cookies, tokens, screenshots with sensitive information, or private page content.
-  ```
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Problem"
+      description: "What problem are you trying to solve?"
+      placeholder: "I often need to..."
+    validations:
+      required: true
 
-* type: textarea
-  id: problem
-  attributes:
-  label: Problem
-  description: What problem are you trying to solve?
-  placeholder: "I often need to..."
-  validations:
-  required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed solution"
+      description: "Describe how you expect this feature to work."
+      placeholder: "Scenario Form could..."
+    validations:
+      required: true
 
-* type: textarea
-  id: solution
-  attributes:
-  label: Proposed solution
-  description: Describe how you expect this feature to work.
-  placeholder: "Scenario Form could..."
-  validations:
-  required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Related area"
+      options:
+        - "Capture"
+        - "Fill"
+        - "Scenarios"
+        - "Field Rules"
+        - "Presets"
+        - "Import / Export"
+        - "Settings"
+        - "Privacy"
+        - "Other"
+    validations:
+      required: true
 
-* type: dropdown
-  id: area
-  attributes:
-  label: Related area
-  options:
-  - Capture
-  - Fill
-  - Scenarios
-  - Field Rules
-  - Presets
-  - Import / Export
-  - Settings
-  - Privacy
-  - Other
-  validations:
-  required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: "Example use case"
+      description: "Describe a real workflow where this feature would help."
+      placeholder: "For example..."
+    validations:
+      required: false
 
-* type: textarea
-  id: example
-  attributes:
-  label: Example use case
-  description: Describe a real workflow where this feature would help.
-  placeholder: "For example..."
-  validations:
-  required: false
-
-* type: checkboxes
-  id: privacy-confirmation
-  attributes:
-  label: Privacy confirmation
-  options:
-  - label: I confirm that this request does not include passwords, personal data, private form values, cookies, tokens, or sensitive page content.
-  required: true
+  - type: checkboxes
+    id: privacy-confirmation
+    attributes:
+      label: "Privacy confirmation"
+      options:
+        - label: "I confirm that this request does not include passwords, personal data, private form values, cookies, tokens, or sensitive page content."
+          required: true

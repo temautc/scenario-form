@@ -1,11 +1,10 @@
 blank_issues_enabled: false
 
 contact_links:
+  - name: "Privacy Policy"
+    url: "https://github.com/temautc/scenario-form/blob/main/PRIVACY.md"
+    about: "Read how Scenario Form handles data and privacy."
 
-* name: Privacy Policy
-  url: https://github.com/temautc/scenario-form/blob/main/PRIVACY.md
-  about: Read how Scenario Form handles data and privacy.
-
-* name: Support
-  url: https://github.com/temautc/scenario-form/blob/main/SUPPORT.md
-  about: Read support guidelines before opening an issue.
+  - name: "Support"
+    url: "https://github.com/temautc/scenario-form/blob/main/SUPPORT.md"
+    about: "Read support guidelines before opening an issue."
