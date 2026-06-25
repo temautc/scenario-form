@@ -1,0 +1,96 @@
+name: Bug report
+description: Report a problem with Scenario Form
+title: "[Bug]: "
+labels: ["type: bug", "status: needs info"]
+body:
+
+* type: markdown
+  attributes:
+  value: |
+  Thanks for reporting a bug.
+
+  ```
+  Please do not include passwords, personal data, private form values, cookies, tokens, screenshots with sensitive information, or private page content.
+  ```
+
+* type: input
+  id: version
+  attributes:
+  label: Scenario Form version
+  description: Example: 0.1.0
+  placeholder: "0.1.0"
+  validations:
+  required: true
+
+* type: input
+  id: browser
+  attributes:
+  label: Browser
+  description: Browser name and version
+  placeholder: "Chrome 126"
+  validations:
+  required: true
+
+* type: dropdown
+  id: page-type
+  attributes:
+  label: Page type
+  options:
+  - Regular HTML form
+  - Google Forms
+  - Yandex Forms
+  - Custom web application
+  - Internal tool / admin panel
+  - Other
+  validations:
+  required: true
+
+* type: textarea
+  id: what-happened
+  attributes:
+  label: What happened?
+  description: Describe the problem.
+  placeholder: "Scenario Form did not fill..."
+  validations:
+  required: true
+
+* type: textarea
+  id: expected
+  attributes:
+  label: What did you expect?
+  description: Describe the expected behavior.
+  placeholder: "I expected Scenario Form to..."
+  validations:
+  required: true
+
+* type: textarea
+  id: steps
+  attributes:
+  label: Steps to reproduce
+  description: Describe how to reproduce the issue.
+  placeholder: |
+  1. Open...
+  2. Click...
+  3. Capture...
+  4. Fill...
+  validations:
+  required: true
+
+* type: dropdown
+  id: custom-rules
+  attributes:
+  label: Did you use custom field rules?
+  options:
+  - "No"
+  - "Yes"
+  - "Not sure"
+  validations:
+  required: true
+
+* type: checkboxes
+  id: privacy-confirmation
+  attributes:
+  label: Privacy confirmation
+  options:
+  - label: I confirm that this report does not include passwords, personal data, private form values, cookies, tokens, or sensitive page content.
+  required: true
