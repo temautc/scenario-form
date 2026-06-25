@@ -58,7 +58,8 @@ Core technical areas:
 
 ## Links
 
-- Chrome Web Store: Coming soon
-- Privacy Policy: Coming soon
-- Support: Coming soon
-- Changelog: Coming soon
+* Chrome Web Store: Coming soon
+* Privacy Policy: [PRIVACY.md](./PRIVACY.md)
+* Support: [SUPPORT.md](./SUPPORT.md)
+* Changelog: [CHANGELOG.md](./CHANGELOG.md)
+* Report a bug: [GitHub Issues](../../issues/new/choose)
