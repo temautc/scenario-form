@@ -1,7 +1,11 @@
-name: Bug report
-description: Report a problem with Scenario Form
+name: "Bug report"
+description: "Report a problem with Scenario Form"
 title: "[Bug]: "
-labels: ["type: bug", "status: needs info"]
+labels:
+
+* "type: bug"
+* "status: needs info"
+
 body:
 
 * type: markdown
@@ -16,8 +20,8 @@ body:
 * type: input
   id: version
   attributes:
-  label: Scenario Form version
-  description: Example: 0.1.0
+  label: "Scenario Form version"
+  description: "Example: 0.1.0"
   placeholder: "0.1.0"
   validations:
   required: true
@@ -25,8 +29,8 @@ body:
 * type: input
   id: browser
   attributes:
-  label: Browser
-  description: Browser name and version
+  label: "Browser"
+  description: "Browser name and version"
   placeholder: "Chrome 126"
   validations:
   required: true
@@ -34,22 +38,22 @@ body:
 * type: dropdown
   id: page-type
   attributes:
-  label: Page type
+  label: "Page type"
   options:
-  - Regular HTML form
-  - Google Forms
-  - Yandex Forms
-  - Custom web application
-  - Internal tool / admin panel
-  - Other
+  - "Regular HTML form"
+  - "Google Forms"
+  - "Yandex Forms"
+  - "Custom web application"
+  - "Internal tool / admin panel"
+  - "Other"
   validations:
   required: true
 
 * type: textarea
   id: what-happened
   attributes:
-  label: What happened?
-  description: Describe the problem.
+  label: "What happened?"
+  description: "Describe the problem."
   placeholder: "Scenario Form did not fill..."
   validations:
   required: true
@@ -57,8 +61,8 @@ body:
 * type: textarea
   id: expected
   attributes:
-  label: What did you expect?
-  description: Describe the expected behavior.
+  label: "What did you expect?"
+  description: "Describe the expected behavior."
   placeholder: "I expected Scenario Form to..."
   validations:
   required: true
@@ -66,8 +70,8 @@ body:
 * type: textarea
   id: steps
   attributes:
-  label: Steps to reproduce
-  description: Describe how to reproduce the issue.
+  label: "Steps to reproduce"
+  description: "Describe how to reproduce the issue."
   placeholder: |
   1. Open...
   2. Click...
@@ -79,7 +83,7 @@ body:
 * type: dropdown
   id: custom-rules
   attributes:
-  label: Did you use custom field rules?
+  label: "Did you use custom field rules?"
   options:
   - "No"
   - "Yes"
@@ -90,7 +94,7 @@ body:
 * type: checkboxes
   id: privacy-confirmation
   attributes:
-  label: Privacy confirmation
+  label: "Privacy confirmation"
   options:
-  - label: I confirm that this report does not include passwords, personal data, private form values, cookies, tokens, or sensitive page content.
+  - label: "I confirm that this report does not include passwords, personal data, private form values, cookies, tokens, or sensitive page content."
   required: true
