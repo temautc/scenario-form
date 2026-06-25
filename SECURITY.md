@@ -8,24 +8,24 @@ Instead, contact the maintainer privately.
 
 Security reports may include issues related to:
 
-* unauthorized access to saved scenarios;
-* unintended exposure of form values;
-* unsafe handling of exported files;
-* extension permission misuse;
-* vulnerabilities that could affect user privacy or browser security.
+- unauthorized access to saved scenarios;
+- unintended exposure of form values;
+- unsafe handling of exported files;
+- extension permission misuse;
+- vulnerabilities that could affect user privacy or browser security.
 
 ## What Not to Include Publicly
 
 Please do not publish:
 
-* passwords;
-* tokens;
-* cookies;
-* personal data;
-* private form values;
-* screenshots with sensitive information;
-* exported scenario files containing real user data;
-* private page content.
+- passwords;
+- tokens;
+- cookies;
+- personal data;
+- private form values;
+- screenshots with sensitive information;
+- exported scenario files containing real user data;
+- private page content.
 
 ## Supported Versions
 

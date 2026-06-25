@@ -10,11 +10,11 @@ Scenario Form stores data locally in the user's browser using Chrome extension s
 
 The extension may store:
 
-* saved form scenarios;
-* form field values saved by the user;
-* custom field rules;
-* extension settings;
-* imported data, if the user manually imports a backup file.
+- saved form scenarios;
+- form field values saved by the user;
+- custom field rules;
+- extension settings;
+- imported data, if the user manually imports a backup file.
 
 ## Data Transmission
 
@@ -40,10 +40,10 @@ Scenario Form requires browser extension permissions to detect and fill form fie
 
 These permissions are used only to provide the extension's core functionality:
 
-* capturing form values;
-* replaying saved scenarios;
-* detecting supported form fields;
-* applying user-configured field rules.
+- capturing form values;
+- replaying saved scenarios;
+- detecting supported form fields;
+- applying user-configured field rules.
 
 ## Closed Source Status
 

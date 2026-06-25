@@ -8,13 +8,13 @@ Before creating a bug report, please make sure the issue is related to Scenario 
 
 When reporting a bug, include:
 
-* Scenario Form version;
-* browser name and version;
-* page type, for example regular form, Google Forms, Yandex Forms, custom web app;
-* steps to reproduce the issue;
-* what happened;
-* what you expected to happen;
-* whether custom field rules were used.
+- Scenario Form version;
+- browser name and version;
+- page type, for example regular form, Google Forms, Yandex Forms, custom web app;
+- steps to reproduce the issue;
+- what happened;
+- what you expected to happen;
+- whether custom field rules were used.
 
 ## Privacy Notice
 
@@ -22,14 +22,14 @@ Do not include sensitive information in bug reports.
 
 Please do not share:
 
-* passwords;
-* personal data;
-* private form values;
-* cookies;
-* tokens;
-* screenshots with sensitive information;
-* private page content;
-* exported scenario files that contain real data.
+- passwords;
+- personal data;
+- private form values;
+- cookies;
+- tokens;
+- screenshots with sensitive information;
+- private page content;
+- exported scenario files that contain real data.
 
 If a bug requires additional details, please describe the issue using a simplified example or test form without sensitive data.
 
@@ -39,10 +39,10 @@ Feature requests are welcome.
 
 Please describe:
 
-* the problem you want to solve;
-* your expected workflow;
-* examples of forms or controls where the feature would help;
-* whether the feature is related to capture, fill, rules, presets, import/export, or settings.
+- the problem you want to solve;
+- your expected workflow;
+- examples of forms or controls where the feature would help;
+- whether the feature is related to capture, fill, rules, presets, import/export, or settings.
 
 ## Source Code
 

@@ -6,18 +6,18 @@ All notable changes to Scenario Form will be documented in this file.
 
 ### Added
 
-* Initial MVP version of Scenario Form.
-* Form scenario capture.
-* Saved scenario replay.
-* Scenario management.
-* Custom field detection rules.
-* Built-in presets for complex form platforms.
-* Nested elements support for custom form controls.
-* Automatic field highlighting for detected and filled form fields.
-* Import and export for scenarios and rules.
-* Local browser storage.
-* Settings page.
-* Privacy-focused support and bug reporting flow.
+- Initial MVP version of Scenario Form.
+- Form scenario capture.
+- Saved scenario replay.
+- Scenario management.
+- Custom field detection rules.
+- Built-in presets for complex form platforms.
+- Nested elements support for custom form controls.
+- Automatic field highlighting for detected and filled form fields.
+- Import and export for scenarios and rules.
+- Local browser storage.
+- Settings page.
+- Privacy-focused support and bug reporting flow.
 
 ### Notes
 
