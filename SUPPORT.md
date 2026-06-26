@@ -2,7 +2,16 @@
 
 If you found a bug or have a feature request for Scenario Form, please use GitHub Issues in this repository.
 
+Open GitHub Issues:
+https://github.com/temautc/scenario-form/issues
+
+Create a new bug report or feature request:
+https://github.com/temautc/scenario-form/issues/new/choose
+
 ## Report a Bug
+
+To report a bug, please create a GitHub Issue:
+https://github.com/temautc/scenario-form/issues/new/choose
 
 Before creating a bug report, please make sure the issue is related to Scenario Form and not to the website itself.
 
@@ -36,6 +45,9 @@ If a bug requires additional details, please describe the issue using a simplifi
 ## Feature Requests
 
 Feature requests are welcome.
+
+To request a feature, please create a GitHub Issue:
+https://github.com/temautc/scenario-form/issues/new/choose
 
 Please describe:
 
